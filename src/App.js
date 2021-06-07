@@ -8,6 +8,7 @@ import Product from './Product/Product';
 import Vision from './Vision/Vision';
 import Tech from './Tech/Tech';
 import Team from './Team/Team';
+import Footer from './Footer/Footer'
 
 import { BsCloudUpload } from "react-icons/bs";
 import { FiGlobe } from "react-icons/fi";
@@ -179,6 +180,7 @@ function App() {
         having your server."
         />
 
+      <Footer />
 
     </>   
   );
