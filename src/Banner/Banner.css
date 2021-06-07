@@ -1,0 +1,60 @@
+.banner{
+    width: 70%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15em;
+}
+h1{
+    font-size: 4.5em;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(32, 32, 32);
+}
+.text{
+    width: 65%;
+    left: 0;
+    padding: 7em 0;
+}
+.red{
+    color: rgb(240, 72, 72);
+}
+.text p{
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    font-size: 1em;
+    color: rgb(131, 131, 131);
+    padding-top: 1em;
+}
+.banner-img-div{
+    width: 35%;
+    position: relative;
+    right: 0;    
+}
+.banner-img{
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+    position: absolute; 
+    bottom: 7em;
+    right: 1em;
+}
+.btn-viewmore{
+    margin-top: 5em;
+    color: rgb(20, 20, 20);
+    font-size: 1em;
+    font-weight: 600;
+    background-color: white;
+    padding: 1.2em 3.5em;
+    font-family: 'Arimo', sans-serif;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    border: 2px solid rgb(20, 20, 20);
+}
+.btn-viewmore:hover{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transition: all smooth;
+    border: 2px solid rgb(20, 20, 20);
+}

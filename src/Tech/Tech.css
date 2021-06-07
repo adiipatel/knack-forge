@@ -1,0 +1,20 @@
+.tech{
+    width: 19em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+.tech h1{
+    width: 10em;
+    font-size: 1.5em;
+    padding: 0.3em 0;
+}
+.tech p{
+    padding-top: 1.5em;
+    font-size: 1em;
+    font-family: 'Arimo', sans-serif;
+    width: 16em;
+    line-height: 1.3em;
+}

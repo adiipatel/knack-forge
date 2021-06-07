@@ -1,0 +1,128 @@
+.product{
+    width: 80%;
+    height: 69px;
+    display: flex;
+    flex-direction: row;
+    padding: 3em 0 0 15em;
+}
+.number{
+    width: 15%;
+    height: 65px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    display: flex;
+    flex-direction: row;
+}
+.number p{  
+    float: right;
+    padding: 1.5em 1em 1.5em 4em;
+    color: black;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.grey{
+    color: grey
+}
+
+.space{
+    width: 72%;
+    height: 65px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    display: flex;
+    flex-direction: row;
+}
+.product-text{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 15em;
+}
+.text-left{
+    width: 15%;
+    border-right: solid 2px;
+    padding: 3.2em 0;
+}
+.text-left p{
+    width: 140px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+.text-right{
+    width: auto;
+    height: auto;
+}
+.text-right h1{
+    width: 365px;
+    padding: 0.5em 0 0 1em;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(32, 32, 32);
+}
+
+
+.product-pic{
+    width: 80%;
+    height: 475px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 15em;
+    margin-bottom: 4em;
+}
+.picture{
+    width: auto;
+    height: auto;
+}
+.product-image{
+    width: 543px;
+    height: 475px;
+    border-right: solid 2px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+}
+
+.text-more{
+    width: 50%;
+    height: auto;
+}
+
+.text-more h2{
+    width: 10em;
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(32, 32, 32);
+    padding: 0.5em 1em;
+    line-height: 1.2em;
+}
+
+.text-more p{
+    width: 24em;
+    font-size: 1em;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    line-height: 1.7em;
+    padding: 0 1em 0.5em 3em;
+}
+
+.text-more button{
+    margin: 3em ;
+    color: rgb(20, 20, 20);
+    font-size: 1em;
+    font-weight: 600;
+    background-color: white;
+    padding: 1em 3.7em;
+    font-family: 'Arimo', sans-serif;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    border: 2px solid rgb(20, 20, 20);
+}
+.text-more button:hover{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transition: all smooth;
+    border: 2px rgb(20, 20, 20) solid;
+}
