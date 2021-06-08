@@ -15,10 +15,10 @@ export default function Footer() {
                 </div>
 
                 <ul>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Process</a></li>
-                    <li><a href="#">Customers</a></li>
-                    <li><a href="#">News</a></li>
+                    <li><a href="#product">Products &amp; People</a></li>
+                    <li><a href="#solution">Solutions &amp; Tech</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#news">News</a></li>
                 </ul>
 
             </div>

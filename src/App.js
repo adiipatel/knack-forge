@@ -24,7 +24,8 @@ function App() {
       <Navbar />
       <Banner />
 
-      <Product 
+      <Product
+        id="product" 
         no="01" 
         para1="Our success rests in the relationship between people"
         head1="Products &amp; people"
@@ -45,7 +46,8 @@ function App() {
       />
 
       <Platform />
-      <Product 
+      <Product
+        id="solution"
         no="02" 
         para1="Choose from our service and find the tools you need"
         head1="Solution &amp; technology"
@@ -118,6 +120,7 @@ function App() {
       />
 
       <Product 
+        id="team"
         no="03" 
         para1="Technology is great. The minds that created it are greater."
         head1="Team &amp; Leadership"
@@ -170,7 +173,8 @@ function App() {
       />
 
       <Product 
-        no="03" 
+        id="news"
+        no="04" 
         para1="Click on to see the real-life impact of our software"
         head1="News &amp; Blog"
         img="news"

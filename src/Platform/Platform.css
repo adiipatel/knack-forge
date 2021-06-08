@@ -1,17 +1,18 @@
 .platform{
-    width: 100%;
+    width: 70%;
     height: 600px;
     display: flex;
     flex-direction: row;
     padding-bottom: 2em;
+    margin: 0 15vw;
+
 }
 .plat-left{
-    width: 30%;
+    width: 45%;
     height: auto;
-    padding-left: 15em;
 }
 .plat-right{
-    width: 30%;
+    width: 55%;
     height: auto;
 }
 .platform-image{
