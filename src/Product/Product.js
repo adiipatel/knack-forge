@@ -7,7 +7,7 @@ const Product = props => {
       <div className="pro" id={props.id}>  
         <div className="product">
             <div className="number">
-                <FaSquareFull color="rgb(240, 72, 72)" size={65}/><p>{props.no}<span className="grey">/04</span></p>
+                <FaSquareFull className="red-block" color="rgb(240, 72, 72)" size={65}/><p>{props.no}<span className="grey">/04</span></p>
             </div>
             <div className="space"></div>    
         </div>

@@ -24,8 +24,10 @@
 }
 .plat-left h1{
     font-size: 3em;
+    width: 9em;
 }
 .plat-left p{
+    width: 25em;
     font-family: 'Arimo', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
@@ -51,4 +53,46 @@
     color: white;
     transition: all smooth;
     border: 2px rgb(20, 20, 20) solid;
+}
+
+@media screen and (max-width: 1367px) { 
+    .plat-left h1{
+        font-size: 2.2em;
+        width: 7em;
+    }
+    .plat-left p{
+        width: 20em;
+    }
+    .btn-plat {
+        margin-top: 1em;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {                         /*  iPad Pro */
+
+    .platform{
+        height: 400px;
+    }
+    .plat-left h1{
+        width: 30%;
+        font-size: 2em;
+        width: 7em;
+    }
+    .plat-left p{
+        font-size: 0.8em;
+        width: 20em;
+    }
+    .plat-right{
+        width: 70%;
+    }
+    .platform-image{
+        margin-top: 0.5em;
+        width: 430px;
+        height: auto;
+    }
+    .plat-left button{
+        padding: 0.8em 3em;
+    }
+
 }

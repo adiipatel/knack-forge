@@ -22,3 +22,14 @@
     padding-top: 4em;
     margin: 0 14vw;
 }
+
+@media screen and (max-width: 1367px) {
+
+    .techs{
+        gap: 0;
+    }
+    .people{
+        gap: 3em;
+    }
+}
+

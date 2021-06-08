@@ -5,7 +5,7 @@ import './Tech.css';
 const Tech = props => {
     return (
         <div className="tech">
-            {props.icon}
+            <div className="red-icon">{props.icon}</div>
             <h1>{props.head}</h1>
             <p className="grey">{props.para}</p>
         </div>

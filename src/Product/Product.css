@@ -129,3 +129,68 @@
     transition: all smooth;
     border: 2px rgb(20, 20, 20) solid;
 }
+
+
+@media screen and (max-width: 1367px) {
+    .text-right h1{
+        font-size: 3em;
+    }
+    .text-left p{
+        font-size: 1em;
+    }
+    .text-more h2{
+        font-size: 2.2em;
+    }
+    .text-more p{
+        font-size: 1em;
+        width: 20em;
+        padding: 0 1em 0.5em 2.5em;
+    }
+
+    .text-more button{
+        margin: 2.5em;
+    }    
+}
+
+@media screen and (max-width: 1024px) {                         /*  iPad Pro */
+
+    .red-block{
+        display: none;
+    }
+    .product-text{
+        height: 250px;
+    }
+    .number p {
+        float: left;
+        padding: 1.5em 1em 1.5em 1em;
+    }
+    .text-left p {
+        font-size: 0.8em;
+        width: 9em;
+    }
+    .text-right h1 {
+        font-size: 2em;
+        width: 5em;
+        padding: 1.3em 0 0 1em;
+    }
+    .product-image {
+        width: 410px;
+        height: 340px;
+    }
+    .text-more h2 {
+        font-size: 1.7em;
+    }
+    .text-more p {
+        font-size: 0.8em;
+        width: 20em;
+        padding: 0 1em 0.5em 2.3em;
+    }
+    .text-more button{
+        padding: 0.8em 3em;
+        margin: 1.8em;
+    }
+    .product-pic{
+        margin-bottom: 0;
+        height: 400px;
+    }
+}

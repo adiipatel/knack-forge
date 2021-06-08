@@ -121,9 +121,10 @@ li a:hover {
     }
     .logo{
         padding: 2.4em 3em 2.4em 1em;
+        width: 9em;
     }
     .icons{
-        padding: 2.7em 0 0 2.5em;
+        padding: 2.7em 0 0 1em;
     }
 }
 

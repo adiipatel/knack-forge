@@ -58,3 +58,22 @@ h1{
     transition: all smooth;
     border: 2px solid rgb(20, 20, 20);
 }
+
+@media screen and (max-width: 1024px) {                         /*  iPad Pro */
+
+    .banner h1{
+        font-size: 2em;
+    }
+
+    .banner p{
+        font-size: 0.8em;
+    }
+    .btn-viewmore{
+        padding: 0.8em 3em;
+    }
+    .banner-img{
+        width: 200px;
+        height: 200px;
+    }
+
+}

@@ -18,3 +18,14 @@
     width: 16em;
     line-height: 1.3em;
 }
+.red-icon{
+    width: auto;
+    height: auto;
+    color: rgb(240, 72, 72)
+}
+
+@media screen and (max-width: 1367px) {
+    .tech{
+        width: 18em;
+    }
+}
