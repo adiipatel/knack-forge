@@ -24,3 +24,16 @@
     font-size: 1em;
     font-family: 'Arimo', sans-serif;
 }
+
+@media screen and (max-width: 1367px) {
+
+    .peop-img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .team{
+        width: 16em;
+    }
+
+}
