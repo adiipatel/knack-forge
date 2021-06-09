@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <div className="footer">
             <div className="footer-left">
-                <div className="logo">
+                <div className="logo2">
                     <img src={logo} alt="logo"></img>
                     <h3>KnackForge</h3>
                 </div>

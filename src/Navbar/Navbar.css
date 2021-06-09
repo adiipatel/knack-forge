@@ -81,10 +81,16 @@ li a:hover {
     .logo{
         margin-left: 8em;
     }
+    .logo2{
+        margin-left: 8em;
+    }
 }
 
 @media screen and (max-width: 1370px) {
     .logo{
+        margin-left: 6em;
+    }
+    .logo2{
         margin-left: 6em;
     }
 }
@@ -93,16 +99,25 @@ li a:hover {
     .logo{
         margin-left: 4em;
     }
+    .logo2{
+        margin-left: 4em;
+    }
 }
 
 @media screen and (max-width: 1300px) {
     .logo{
         margin-left: 2em;
     }
+    .logo2{
+        margin-left: 2em;
+    }
 }
 
 @media screen and (max-width: 1275px) {
     .logo{
+        margin-left: 1em;
+    }
+    .logo2{
         margin-left: 1em;
     }
 }
@@ -135,6 +150,10 @@ li a:hover {
         padding: 2.4em 3em 2.4em 1em;
         width: 9em;
     }
+    .logo2{
+        padding: 2.4em 3em 2.4em 1em;
+        width: 9em;
+    }
     .icons{
         padding: 2.7em 0 0 1em;
     }
@@ -157,6 +176,9 @@ li a:hover {
     .logo{
         padding: 2.4em 5em 2.4em 1em;
     }
+    .logo2{
+        padding: 2.4em 5em 2.4em 1em;
+    }
     .icons{
         padding: 1.8em 0 1.8em 2.5em;
     }
@@ -168,6 +190,9 @@ li a:hover {
     .logo{
         padding: 2.4em 3em 2.4em 1em;
     }
+    .logo2{
+        padding: 2.4em 3em 2.4em 1em;
+    }
 
 }
 
@@ -175,6 +200,11 @@ li a:hover {
 @media screen and (max-width: 500px) {                         /*  iPhone X */
 
     .logo{
+        margin-left: 0.5em;
+        border-right: 0;
+        padding: 2.4em 1em 2.4em 1em;
+    }
+    .logo2{
         margin-left: 0.5em;
         border-right: 0;
         padding: 2.4em 1em 2.4em 1em;

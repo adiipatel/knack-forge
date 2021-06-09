@@ -1,3 +1,14 @@
+.logo2{
+    width: 10%;
+    margin-left: 13em;
+    padding: 2.4em;
+    display: flex;
+    font-size: 1em;
+    font-family: 'Arimo', sans-serif;
+    font-weight: lighter;
+    gap: 2px;
+    cursor: pointer;
+}
 .footer{
     margin-top: 15em;
     width: 100%;
@@ -105,7 +116,10 @@
         font-size: 2.5em;
         padding-bottom: 1.5em;
     }
-        
+    .logo2{
+        width: 30%;
+        margin-left: 6em;
+    }
 }
 
 
@@ -145,6 +159,25 @@
     }
 }
 
+@media screen and (max-width: 1024px) {                         /*  iPad Pro */
+
+    .logo2{
+        width: 30%;
+        margin-left: 0;
+        padding: 1.7em;
+    } 
+    
+}
+
+@media screen and (max-width: 769px) {                         /*  iPad */
+
+    .logo2{
+        width: 30%;
+        margin-left: 0;
+        padding: 1.7em;
+    } 
+    
+}
 
 @media screen and (max-width: 500px) {                         /*  iPhone X */
     .footer-left ul {
@@ -168,7 +201,11 @@
     .contact-info p {
         padding-top: 1.5em;
         line-height: 2.5em;
-
     }
+    .logo2{
+        width: 30%;
+        margin-left: 0;
+        padding: 1.7em;
+    } 
         
 }
