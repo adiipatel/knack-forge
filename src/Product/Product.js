@@ -21,7 +21,7 @@ const Product = props => {
         </div>
         <div className="product-pic">
             <div className="picture">
-                <img className="product-image" src={`/images/${props.img}.jpg`} alt="Product Image" width="300px"></img>
+                <img className="product-image" src={`/images/${props.img}.jpg`} alt="Product" width="300px"></img>
             </div>
             <div className="text-more">
                 <h2>{props.h1}</h2>
