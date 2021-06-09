@@ -24,8 +24,8 @@ export default function Navbar() {
                 </div>
                 <div className="icons">
                     <ul>
-                        <li><a href="#"><FaRegEnvelope /></a></li>
-                        <li><a href="#"><FaPhoneAlt /></a></li>
+                        <li><a href="/"><FaRegEnvelope /></a></li>
+                        <li><a href="/"><FaPhoneAlt /></a></li>
 
                     </ul>
                 </div>        
