@@ -33,3 +33,55 @@
     }
 }
 
+@media screen and (max-width: 769px) {                         /*  iPad */
+
+    .techs{
+        margin: 0 10vw;
+    }
+
+    .people{
+        margin: 0 12vw;
+        gap: 6em;
+    }
+}
+
+
+@media screen and (max-width: 500px) {                         /*  iPhone X */
+
+
+    .techs {
+        width: 65%;
+        padding-top: 2em;
+        margin: 0 18vw;
+        padding-bottom: 2em;
+    }
+
+    .people {
+        margin: 0 15vw;
+        padding: 4em 3em;
+        grid-gap: 6em;
+        gap: 6em;
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (max-width: 376px) {                         /*  iPhone X */
+
+    .techs {
+        width: 65%;
+        padding-top: 2em;
+        margin: 0 12vw;
+        padding-bottom: 2em;
+    }
+    .people {
+        margin: 0 15vw;
+        padding: 4em 1em;
+        grid-gap: 6em;
+        gap: 6em;
+        width: 50%;
+    }
+
+}
+

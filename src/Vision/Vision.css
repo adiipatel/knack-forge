@@ -45,3 +45,21 @@
     }
 
 }
+
+
+@media screen and (max-width: 500px) {                         /*  iPhone X */
+
+    .vision {
+        margin-bottom: 5em;
+        height: 200px;
+    }
+    .vision-image {
+        width: 40px;
+        height: 40px;
+    }
+    .vision h2 {
+        width: 11.6em;
+        font-size: 1.2em;
+        padding: 5em 0em 4em 2em;
+    }
+}

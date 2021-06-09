@@ -96,3 +96,48 @@
     }
 
 }
+
+@media screen and (max-width: 769px) {                         /*  iPad */
+
+    .platform{
+        margin: 0 10vw;
+        height: 350px;
+    }
+    .plat-left h1 {
+        font-size: 1.5em;
+    }
+    .plat-left p {
+        font-size: 0.7em;
+    }
+    .platform-image {
+        margin-top: 0.5em;
+        width: 365px;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 500px) {                         /*  iPhone X */
+
+    .platform {
+        margin: 0 8vw;
+        height: 250px;
+    }
+    .plat-left h1 {
+        font-size: 1.2em;
+    }
+    .plat-left p {
+        font-size: 0.5em;
+        width: 28vw;
+        line-height: 1.7em;
+    }
+    .plat-left button {
+        display: none;
+    }
+    .platform-image {
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+        width: 17em;
+        height: auto;
+    }
+}

@@ -27,17 +27,17 @@ export default function Footer() {
                 <div className="contact-info">
                     <h1>Contact Info</h1>
                     <p>
-                        USA <br />
-                        102 N. College <br />
-                        Suite 404 . Tyler <br />
-                        Texas . 75702
+                        CANADA <br />
+                        435 W. Avenue <br />
+                        Suite 1011 . Aditya <br />
+                        Kitchner . N2C 2R9
                     </p>
                 </div>
                 <div className="social-media">
                     <div className="social-icons">
-                        <AiOutlineTwitter />
-                        <FaLinkedinIn />
-                        <FaFacebookF />
+                        <AiOutlineTwitter size={20}/>
+                        <FaLinkedinIn size={20}/>
+                        <FaFacebookF size={20}/>
                     </div>    
                 </div>    
             </div>    

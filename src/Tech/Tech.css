@@ -29,3 +29,11 @@
         width: 18em;
     }
 }
+
+@media screen and (max-width: 769px) {                         /*  iPad */
+
+    .tech{
+        width: 15em;
+    }
+
+}

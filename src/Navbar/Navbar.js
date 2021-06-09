@@ -12,7 +12,9 @@ export default function Navbar() {
                     <img src={logo} alt="logo"></img>
                     <h3>KnackForge</h3>
                 </div>
-                <div className="menu">
+                <label className="ham" for="toggle-open">&#9776;</label>
+                <input type="checkbox" id="toggle-open"/> 
+                <div className="menu"> 
                     <ul>
                         <li><a href="#product">Products &amp; People</a></li>
                         <li><a href="#solution">Solutions &amp; Tech</a></li>
@@ -24,6 +26,7 @@ export default function Navbar() {
                     <ul>
                         <li><a href="#"><FaRegEnvelope /></a></li>
                         <li><a href="#"><FaPhoneAlt /></a></li>
+
                     </ul>
                 </div>        
             </div>

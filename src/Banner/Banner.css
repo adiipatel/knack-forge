@@ -77,3 +77,33 @@ h1{
     }
 
 }
+
+
+
+@media screen and (max-width: 769px) {                         /*  iPad */
+
+    .banner{
+        margin: 0 10vw;
+        width: 80%;
+    }
+    .text{
+        padding: 4em 0;
+    }
+    .banner-img{
+        bottom: 4em;
+    }
+}
+
+@media screen and (max-width: 500px) {                         /*  iPhone X */
+
+    .banner{
+        margin-top: 150px;
+    }
+    .banner-img-div{
+        display: none;
+    }
+    .text {
+        padding: 4em 0;
+        width: 100%;
+    }
+}

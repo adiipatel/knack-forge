@@ -194,3 +194,85 @@
         height: 400px;
     }
 }
+
+@media screen and (max-width: 769px) {                         /*  iPad */
+
+    .pro{
+        margin: 0 10vw;
+        width: 85%;
+    }
+    .number{
+        width: 20%;
+    }
+    .text-left{
+        width: 20%;
+    }
+    .product-image {
+        width: 325px;
+        height: 275px;
+    }
+    .text-more h2 {
+        font-size: 1.5em;
+    }
+    .text-more p {
+        font-size: 0.7em;
+    }
+    .text-more button {
+        padding: 0.8em 3em;
+        margin: 1.5em;
+    }
+    .product-pic {
+        margin-bottom: 0;
+        height: 300px;
+    }
+        
+}
+
+
+@media screen and (max-width: 500px) {                         /*  iPhone X */
+
+    .pro {
+        margin: 0 8vw;
+        width: 85%;
+    }
+    .number {
+        width: 50%;
+    }
+    .space{
+        width: 50%;
+    }
+    .text-left {
+        width: 50%;
+    }
+    .text-right {
+        width: 50%;
+    }
+    .text-right h1{
+        font-size: 1.7em;
+    }
+    .product-image{
+        width: 99.5%;
+        height: 70%;
+        border-right: 2px solid black;
+    }
+    .picture {
+        width: 50%;
+    }
+    .text-more {
+        width: 50%;
+    }
+
+    .text-more h2 {
+        font-size: 1.1em;
+    }
+    .text-more p {
+        font-size: 0.5em;
+    }
+    .text-more button {
+        display: none;
+    }
+    .product-pic {
+        margin-bottom: 0;
+        height: 220px;
+    }
+}
