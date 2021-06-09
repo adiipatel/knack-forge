@@ -5,7 +5,7 @@ import banner2 from '../images/banner2.jpg';
 const Vision = props => {
     return (
         <div className="vision">
-            <img className="vision-image" src={banner2} alt="Banner Image" width="300px"></img>
+            <img className="vision-image" src={banner2} alt="Banner" width="300px"></img>
             <h2>{props.text}</h2>
         </div>
     )

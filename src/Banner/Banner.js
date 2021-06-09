@@ -11,7 +11,7 @@ export default function Banner() {
                 <button className="btn-viewmore">View more </button>
             </div> 
             <div className="banner-img-div">
-                <img className="banner-img" src={banner} alt="banner" width="300px"></img>
+                <img className="banner" src={banner} alt="banner" width="300px"></img>
             </div>
         </div>
     )
