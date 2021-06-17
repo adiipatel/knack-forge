@@ -3,8 +3,7 @@
     height: 100px;
     display: flex;
     flex-direction: row;
-    border-bottom: solid 2px;
-    
+    border-bottom: solid 2px;   
 }
 .logo{
     width: 10%;
@@ -17,6 +16,15 @@
     gap: 2px;
     cursor: pointer;
     border-right: solid 2px;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 img{
     width: 1.8em;
@@ -26,6 +34,7 @@ img{
     width: 70%;
     padding: 2.4em 0em 2.4em 2.4em;
     border-right: solid 2px;
+    animation: fadeIn 2s;
 }
 label{
     margin: 0 40px 0 0;
@@ -74,6 +83,7 @@ li a:hover {
     display: flex;
     flex-direction: row;
     padding: 2.4em 0 0 2.5em;
+    animation: fadeIn 2s;
 }
 
 

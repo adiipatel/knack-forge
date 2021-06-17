@@ -1,3 +1,4 @@
+
 .banner{
     width: 70%;
     height: 50%;
@@ -9,6 +10,7 @@ h1{
     font-size: 4.5vw;
     font-family: 'Roboto Slab', serif;
     color: rgb(32, 32, 32);
+    animation: fadeIn 0.5s;
 }
 .text{
     width: 65%;
@@ -26,6 +28,8 @@ h1{
     font-size: 1em;
     color: rgb(131, 131, 131);
     padding-top: 1em;
+    animation: fadeIn 1s;
+
 }
 .banner-img-div{
     width: 35%;
@@ -39,6 +43,7 @@ h1{
     position: absolute; 
     bottom: 7em;
     right: 1em;
+    animation: fadeIn 2.5s;
 }
 .btn-viewmore{
     margin-top: 5em;
@@ -51,6 +56,7 @@ h1{
     letter-spacing: 2px;
     transition: all 0.3s;
     border: 2px solid rgb(20, 20, 20);
+    animation: fadeIn 2.5s;
 }
 .btn-viewmore:hover{
     background-color: rgb(20, 20, 20);
