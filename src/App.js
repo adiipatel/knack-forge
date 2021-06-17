@@ -172,9 +172,8 @@ class App extends Component {
                     name={user.name}
                     position={user.position}
                   />
-              ))}
+              ))} 
                 
-              
             </div>
 
             <Vision 
