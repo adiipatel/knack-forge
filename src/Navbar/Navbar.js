@@ -14,7 +14,7 @@ export default function Navbar() {
                 </div>
                 <label className="ham" for="toggle-open">&#9776;</label>
                 <input type="checkbox" id="toggle-open"/> 
-                <div className="menu"> 
+                <div className="menu">
                     <ul>
                         <li><a href="#product">Products &amp; People</a></li>
                         <li><a href="#solution">Solutions &amp; Tech</a></li>
