@@ -1,25 +1,39 @@
 import React from 'react'
 import './Footer.css'
-import logo from '../images/logo.png';
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
+import emailjs from 'emailjs-com';
 
 export default function Footer() {
+
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('gmail', 'knack_forge', e.target, 'user_QNCYi67amNscF0sPuoXsC')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset();
+      }
+
     return (
         <div className="footer">
             <div className="footer-left">
                 <div className="logo2">
-                    <img src={logo} alt="logo"></img>
-                    <h3>KnackForge</h3>
+                    <h3>Get In Touch</h3>
                 </div>
 
-                <ul>
-                    <li><a href="#product">Products &amp; People</a></li>
-                    <li><a href="#solution">Solutions &amp; Tech</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#news">News</a></li>
-                </ul>
+                <div className="form">
+                    <form onSubmit={sendEmail}>
+                        <input type="text" placeholder="Name" name="name" />
+                        <input type="email" placeholder="Email Address" name="email" />
+                        <textarea cols="30" rows="3" placeholder="Your message" name="message" />
+                        <input type="submit" value="Send" />
+                    </form>        
+                </div>
 
             </div>
 

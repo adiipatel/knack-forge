@@ -8,7 +8,7 @@ import Product from './Product/Product';
 import Vision from './Vision/Vision';
 import Tech from './Tech/Tech';
 import Team from './Team/Team';
-import Footer from './Footer/Footer'
+import Footer from './Footer/Footer';
 
 import { BsCloudUpload } from "react-icons/bs";
 import { FiGlobe } from "react-icons/fi";
@@ -193,7 +193,6 @@ class App extends Component {
               looking cross-platform app using AWS services without actually 
               having your server."
               />
-
             <Footer />
 
           </>   
